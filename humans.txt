@@ -1,14 +1,14 @@
 /* TEAM */
-Developer & Designer: Josh Gerdes
-Twitter: @joshgerdes
-Site: http://joshgerdes.com
-Location: Minneapolis, MN, USA
+Owner: Kevin Krotzer
+Site: kevin@kevinkrotzer.com, http://kevinkrotzer.com
+Twitter: @kevinkrotzer
+Location: San Francisco, CA, USA
 						
 /* THANKS */
-Name: Dale Anthony
+Name: Josh Gerdes
 
 /* SITE */
-Last update: 2016/02/10
+Last update: 2016/08/06
 Standards: HTML5, CSS3
 Components: Jekyll
 Software: Sublime Text, Photoshop
