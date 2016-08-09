@@ -20,6 +20,10 @@ author:
   vimeo_username: 
   yelp_username: 
   youtube_username: 
+thanks:
+  background_title: 'Sierra' #required for background credit to appear in footer and in humans.txt/thanks
+  background_photographer: 'Greg Duncan' #required for background credit to appear in footer
+  background_photographer_contact:  #optional
   
 
 defaults:
