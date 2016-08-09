@@ -1,0 +1,31 @@
+---
+layout: default
+title: Contact
+permalink: /contact.html
+---
+<h2>Contact</h2>
+ <link rel="stylesheet" href="{{ "css/bootstrap.form.css" | prepend: site.baseurl }}">
+<div class="contact">
+<form action="http://formspree.io/{{ site.author.email }}" role="form" method="POST">
+    <div class="form-group">
+      <label for="name">Your name</label>
+      <input type="text" name="name" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="_replyto">and email address</label>
+      <input type="email" name="_replyto" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="why">What can I do for you?</label>
+      <textarea name="why" class="form-control" rows="3" required></textarea>
+    </div>
+	
+    <div class="form-group">
+	  <input type="hidden" name="_next" value="thanks.html">
+      <input type="submit" class="btn navigation__item" value="Send">
+      or <a href="mailto:{{ site.author.email }}">email me</a>
+	</div>
+  </form>
+</div>

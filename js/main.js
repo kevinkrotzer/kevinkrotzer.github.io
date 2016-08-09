@@ -2,7 +2,7 @@
 layout: null
 ---
 $(document).ready(function () {
-  $('a.blog-button').click(function (e) {
+  $('a.slide-button').click(function (e) {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
@@ -27,7 +27,7 @@ $(document).ready(function () {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
 
-  $('.navigation-wrapper .blog-button').click(function () {
+  $('.navigation-wrapper .slide-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
