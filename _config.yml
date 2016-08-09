@@ -9,6 +9,9 @@ disqus_shortname: 'kevinkrotzer-com'
 author:
   name: 'Kevin Krotzer'
   email: kevin@kevinkrotzer.com
+  city: San Francisco
+  state: CA
+  country: USA
   twitter_username: kevinkrotzer
   facebook_username: kevinkrotzer
   github_username:  
@@ -20,10 +23,20 @@ author:
   vimeo_username: 
   yelp_username: 
   youtube_username: 
+
+humans:
+  standards: HTML5, CSS3
+  components: Jekyll
+  software: Notepad ++, GIMP
+  
+
 thanks:
   background_title: 'Sierra' #required for background credit to appear in footer and in humans.txt/thanks
   background_photographer: 'Greg Duncan' #required for background credit to appear in footer
   background_photographer_contact:  #optional
+  theme_title: 'jekyll-uno' #optional
+  theme_developer: 'Josh Gerdes' #required for name to appear in humans.txt/thanks
+  theme_developer_contact: 'https://github.com/joshgerdes' #required for contact to appear in humans.txt/thanks
   
 
 defaults:

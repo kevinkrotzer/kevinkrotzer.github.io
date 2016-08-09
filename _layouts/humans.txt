@@ -1,0 +1,15 @@
+/* TEAM */
+Owner: {{ site.author.name }}
+Site: {{ site.author.email }}, {{ site.url }}
+{% if site.author.twitter_username %}Twitter: @{{ site.author.twitter_username }}{% endif %}
+Location: {{ site.author.city }}, {{ site.author.state }}, {{ site.author.country }}
+						
+/* THANKS */
+{% if site.thanks.theme_developer %}Name: {{ site.thanks.theme_developer }}{% endif %}{% if site.thanks.theme_developer_contact %} ({{ site.thanks.theme_developer_contact }}){% endif %} 
+{% if site.thanks.background_photographer %}Name: {{ site.thanks.background_photographer }}{% endif %}{% if site.thanks.background_photographer_contact %} ({{ site.thanks.background_photographer_contact }}){% endif %} 
+
+/* SITE */
+Last update: {{ site.time }}
+{% if site.humans.standards %}Standards: {{ site.humans.standards }}{% endif %}
+{% if site.humans.components %}Components: {{ site.humans.components }}{% endif %}
+{% if site.humans.software %}Software: {{ site.humans.software }}{% endif %}
