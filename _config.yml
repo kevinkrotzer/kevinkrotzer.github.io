@@ -65,16 +65,16 @@ prose:
         field:
           element: "text"
           label: "[tag1,tag2]"
-      - name: "hidden"
+      - name: "published"
         field:
           element: "select"
-          label: "Hidden?"
-          placeholder: "Choose to hide"
+          label: "Publish"
+          placeholder: "Yes"
           options:
             - name: "Yes"
-              value: "true"
+              value: true
             - name: "No"
-              value: "false"
+              value: false
 
 defaults:
   -

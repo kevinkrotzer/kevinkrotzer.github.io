@@ -1,9 +1,8 @@
 ---
 date: '2016-08-10 02:31 -0700'
 layout: post
-published: false
 title: Prose.io test1
-hidden: 'false'
+hidden: false
 ---
 ## A New Post
 
