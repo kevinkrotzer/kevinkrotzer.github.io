@@ -63,10 +63,15 @@ prose:
           options:
            - name: 'category 1'
              value: 'category 1'
+          alterable: true
       - name: "tags"
         field:
-          element: "text"
-          label: "[tag1,tag2]"
+          element: "multiselect"
+          label: "Tags"
+          options:
+           - name: 'tag 1'
+             value: 'tag 1'
+          alterable: true
       - name: "published"
         field:
           element: "checkbox"
