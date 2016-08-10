@@ -52,7 +52,6 @@ prose:
         field:
           element: "text"
           label: "Title"
-          placeholder: "Choose a title"
       - name: "date"
         field:
           element: "hidden"
@@ -67,14 +66,9 @@ prose:
           label: "[tag1,tag2]"
       - name: "published"
         field:
-          element: "select"
+          element: "checkbox"
           label: "Publish"
-          placeholder: "Yes"
-          options:
-            - name: "Yes"
-              value: true
-            - name: "No"
-              value: false
+          value: true
 
 defaults:
   -
