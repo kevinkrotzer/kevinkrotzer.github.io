@@ -38,7 +38,44 @@ thanks:
   theme_developer: 'Josh Gerdes' #required for name to appear in humans.txt/thanks
   theme_developer_contact: 'https://github.com/joshgerdes' #required for contact to appear in humans.txt/thanks
   
-
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://kevinkrotzer.com'
+  media: 'images/posts'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Choose a title"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "categories"
+        field:
+          element: "text"
+          label: "[category1,category2]"
+      - name: "tags"
+        field:
+          element: "text"
+          label: "[tag1,tag2]"
+      - name: "hidden"
+        field:
+          element: "select"
+          label: "Hidden?"
+          placeholder: "Choose to hide"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: "No"
+              value: "false"			
+		  
 defaults:
   -
     scope:
