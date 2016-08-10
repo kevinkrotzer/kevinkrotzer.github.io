@@ -1,8 +1,7 @@
 # Site settings
 title: Kevin Krotzer
 description: 'hello world'
-url: 'https://kevinkrotzer.com'
-enforce_ssl: kevinkrotzer.com
+url: 'http://kevinkrotzer.com'
 baseurl: '/'
 google_analytics: 'UA-82095106-1'
 disqus_shortname: 'kevinkrotzer-com'
