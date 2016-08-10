@@ -2,7 +2,7 @@
 title: Kevin Krotzer
 description: 'hello world'
 url: 'http://kevinkrotzer.com'
-baseurl: '/'
+baseurl: 
 google_analytics: 'UA-82095106-1'
 disqus_shortname: 'kevinkrotzer-com'
 
