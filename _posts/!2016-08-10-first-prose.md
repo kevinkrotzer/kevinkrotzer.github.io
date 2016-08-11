@@ -10,6 +10,8 @@ tags:
   - tag 1
   - tag 2
 ---
+hi
+
 ![PC281455.JPG]({{ site.baseurl }}/images/posts/PC281455.JPG)
 ## A New Post
 
