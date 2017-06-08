@@ -20,7 +20,9 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="slide-button">Blog</a></li>
+              {% if site.show_blog %}
+			  <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="slide-button">Blog</a></li>
+			  {% endif %}
             </ul>
           </nav>
 
