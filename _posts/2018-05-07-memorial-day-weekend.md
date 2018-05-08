@@ -1,7 +1,7 @@
 ---
 date: '2018-05-07 21:54 -0700'
 layout: post
-published: false
+published: true
 title: Memorial day weekend
 categories:
   - weekend trips
