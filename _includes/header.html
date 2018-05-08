@@ -149,6 +149,7 @@
               </li>
             {% endif %}
 
+            {% if site.show_blog %}
             <!-- RSS -->
             <li class="navigation__item">
               <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Subscribe" target="_blank">
@@ -156,6 +157,7 @@
                 <span class="label">RSS</span>
               </a>
             </li>
+            {% endif %}
           
             </ul>
           </nav>
