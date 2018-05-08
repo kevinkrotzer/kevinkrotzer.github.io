@@ -5,7 +5,7 @@ url: 'http://kevinkrotzer.com'
 baseurl:  #if necessary, use format '/baseurl' without trailing slash
 google_analytics: 'UA-82095106-1'
 disqus_shortname: 'kevinkrotzer-com'
-show_blog: #yes for yes/blank for no
+show_blog: yes #yes for yes/blank for no
 
 author:
   name: 'Kevin Krotzer'
