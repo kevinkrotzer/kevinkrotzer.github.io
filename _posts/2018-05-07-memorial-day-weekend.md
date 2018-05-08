@@ -1,7 +1,7 @@
 ---
 date: '2018-05-07 21:54 -0700'
 layout: post
-published: true
+published: false
 title: Memorial day weekend
 categories:
   - weekend trips
@@ -23,10 +23,18 @@ A closer view of the area with our site circled in red
 ![detail.png]({{site.baseurl}}/images/posts/detail.png)
 
 
-### Additional logistics
+### Additional details
 
 -Check-in is 2pm, check out is 11am
+
 -Quiet hours are from 10:00pm to 8:00am
+
 -I've paid for the site and one vehicle. I suspect that each additional vehicle will be subject to the day use fee of $7
+
 -Domestic pets are allowed for a fee . Pets must be on a lead at all times.
+
+
+### Thoughts
+
+
 
