@@ -3,7 +3,7 @@ title: Kevin Krotzer
 description: 'hello world'
 url: 'http://kevinkrotzer.com'
 baseurl:  #if necessary, use format '/baseurl' without trailing slash
-google_analytics: 'UA-82095106-1'
+google_analytics: 'G-ZYEBZGF9HT'
 disqus_shortname: 'kevinkrotzer-com'
 show_blog: #yes for yes/blank for no
 
@@ -15,21 +15,21 @@ author:
   country: USA
   twitter_username: kevinkrotzer
   facebook_username: kevinkrotzer
-  github_username:  
+  github_username:
   linkedin_username:  kevinkrotzer
-  googleplus_username: 
-  instagram_username: 
-  pinterest_username: 
-  reddit_username: 
-  vimeo_username: 
-  yelp_username: 
-  youtube_username: 
+  googleplus_username:
+  instagram_username:
+  pinterest_username:
+  reddit_username:
+  vimeo_username:
+  yelp_username:
+  youtube_username:
 
 humans:
   standards: HTML5, CSS3
   components: Jekyll
   software: Notepad ++, GIMP
-  
+
 
 thanks:
   background_title: 'Sierra' #required for background credit to appear in footer and in humans.txt/thanks
@@ -38,7 +38,7 @@ thanks:
   theme_title: 'jekyll-uno' #optional
   theme_developer: 'Josh Gerdes' #required for name to appear in humans.txt/thanks
   theme_developer_contact: 'https://github.com/joshgerdes' #required for contact to appear in humans.txt/thanks
-  
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://kevinkrotzer.com'
