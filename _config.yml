@@ -8,7 +8,7 @@ baseurl:  #if necessary, use format '/baseurl' without trailing slash
 description:  This is something about Kevin.
 
 # A brief blurb about yourself
-content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+content: hello world
 
 # A picture of yourself
 avatar: /assets/img/profile.png
