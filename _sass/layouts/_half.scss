@@ -34,6 +34,8 @@
 
   &__content {
     order: 2;
+    min-width: 50vw;
+    max-width: 50vw;
 
     &.half--left {
       @include min(md) {
