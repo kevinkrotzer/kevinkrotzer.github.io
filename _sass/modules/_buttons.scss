@@ -1,0 +1,37 @@
+/***************
+BUTTON DEFAULTS
+***************/
+
+@mixin button--outline($btn-color: $primary-color, $btn-font-color: white) {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  font-family: $sans-serif;
+  text-decoration: none;
+  color: $btn-color;
+  font-size: 1.2em;
+
+  font-weight: 300;
+
+  cursor: pointer;
+  margin-bottom: 0.5em;
+  transition: background-color 0.14s ease-in-out;
+
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  line-height: 45px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 1em;
+  margin-right: .7em;
+
+
+  // hovering on the btn
+  &:hover,
+  &:active {
+    color: $btn-font-color;
+    text-decoration: none;
+    background-color: $btn-color;
+  } // end hover
+} // end .button

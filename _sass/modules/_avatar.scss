@@ -1,0 +1,18 @@
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+
+  img {
+    max-width: 6em;
+    border-radius: 50%;
+    border: .2em solid white;
+  
+    &.light {
+      border: .2em solid white;
+    }      
+    
+    &.dark {
+      border: .2em solid $primary-color;
+    }
+  }
+}

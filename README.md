@@ -1,7 +1,13 @@
-Source files for [kevinkrotzer.com](http://kevinkrotzer.com)
+---
+permalink: readme
+---
+
+Source files for [kevinkrotzer.com](https://kevinkrotzer.com)
+
+![Screenshot of kevinkrotzer.com]](assets/img/share.jpg)
 
 ### Theme
-[Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno) theme by Josh Gerdes
+This theme is a heavily (poorly) modified [uni](https://github.com/brianmaierjr/uni) theme by [Brian Maier Jr.](https://github.com/brianmaierjr)
 
 ### Copyright and license
 

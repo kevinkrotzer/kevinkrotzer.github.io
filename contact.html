@@ -1,31 +1,13 @@
 ---
-layout: default
+layout: half
 title: Contact
-permalink: /contact.html
+display_avatar: true
+permalink: contact
+background:
+  image: "/assets/img/cover.jpg"
+  image_description:
+  overlay_filter: rgba(0, 0, 0, .7)
+sitemap: true
 ---
-<h2>Contact</h2>
- <link rel="stylesheet" href="{{ "/css/bootstrap.form.css" | prepend: site.baseurl }}">
-<div class="contact">
-<form action="https://formspree.io/{{ site.author.email }}" role="form" method="POST">
-    <div class="form-group">
-      <label for="name">Your name</label>
-      <input type="text" name="name" class="form-control" required>
-    </div>
-
-    <div class="form-group">
-      <label for="_replyto">and email address</label>
-      <input type="email" name="_replyto" class="form-control" required>
-    </div>
-
-    <div class="form-group">
-      <label for="why">What can I do for you?</label>
-      <textarea name="why" class="form-control" rows="3" required></textarea>
-    </div>
-	
-    <div class="form-group">
-	  <input type="hidden" name="_next" value="thanks.html">
-      <input type="submit" class="btn navigation__item" value="Send">
-      or <a href="mailto:{{ site.author.email }}">email me</a>
-	</div>
-  </form>
-</div>
+{% include avatar %}  
+{% include contact_form %}

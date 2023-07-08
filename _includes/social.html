@@ -1,0 +1,9 @@
+<div class="socialLinks">
+  {% for link in site.social %}
+      {% capture icon %}{{ link.icon }}{% endcapture %}
+      <a class="socialLinks__link socialLInk__{{ link.platform }}" href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %} target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+  {% endfor %}
+  {% if site.contact.enable %}
+  <a class="socialLinks__link socialLInk__{{ link.platform }}" href="{{ site.contact.url }}"><i class="{{ site.contact.icon | default: 'fas fa-envelope' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+  {% endif %}
+</div>

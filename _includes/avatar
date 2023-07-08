@@ -1,0 +1,5 @@
+<div class="author__avatar">
+    <a href="/">
+        <img src="{{ site.avatar }}" alt="{{ site.title }}" itemprop="image" class="{% if page.layout contains "full" %}light{% else %}dark{% endif %}">
+    </a>
+</div>
