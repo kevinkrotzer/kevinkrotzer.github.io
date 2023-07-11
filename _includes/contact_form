@@ -1,23 +1,20 @@
 <h1>{{ page.title }}</h1>
-<link rel="stylesheet" href="{{ "/css/bootstrap.form.css" | prepend: site.baseurl }}">
 <div class="contact">
-<form action="https://formspree.io/{{ site.email }}" role="form" method="POST">
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="{{ site.contact.form_action }}" method="post">
     <div class="form-group">
-      <input type="text" name="name" class="full-width" placeholder="Name" required>
+      <input type="text" name="name" id="full-name" placeholder="Name" required class="full-width">
     </div>
-
     <div class="form-group">
-      <input type="email" name="_replyto" class="full-width" placeholder="Email address" required>
+      <input type="email" name="_replyto" id="email-address" placeholder="Email address" required class="full-width">
     </div>
-
     <div class="form-group">
-      <textarea name="why" class="full-width" rows="3" placeholder="Message" required></textarea>
+      <textarea rows="5" name="message" id="message" placeholder="Message" required class="full-width"></textarea>
     </div>
-	
     <div class="form-group">
-	  <input type="hidden" name="_next" value="thanks.html">
-      <input type="submit" class="btn navigation__item" value="Send">
-      or <a href="mailto:{{ site.email }}">email me</a>
-	</div>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Send"> or <a href="mailto:{{ site.email }}">email me</a>.
+    </div>
   </form>
 </div>
