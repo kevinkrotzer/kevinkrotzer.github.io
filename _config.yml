@@ -50,8 +50,19 @@ half_side: right
 # Full layout
 full_text_position: right # left, right or center
 
-
 #sass
 sass:
   sass_dir:           _sass
   style:              compressed
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
